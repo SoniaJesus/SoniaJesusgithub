@@ -81,22 +81,22 @@ test(" @daily title:Login", async({page})=>{
 })
 
 import { Login_pages } from "./pages/login_pages"
-test(" @facebook @daily  title:Login" , async()=>{
+// /*test(" @facebook @daily  title:Login" , async()=>{
 
 
-    /*create a Browser Fixture */
-    const browser = await chromium.launch()
-    /* Context Fixture*/
-    const context = await browser.newContext()
+//     /*create a Browser Fixture */
+//    // const browser = await chromium.launch()
+//     /* Context Fixture*/
+//    // const context = await browser.newContext()npx playwright test facebook.spec.ts --headed 
 
-    const context1 =await browser.newContext()
-    const page1 = await context1.newPage()
-    /*Page Fixture*/
-    const page = await context.newPage()
+//    // const context1 =await browser.newContext()
+//     const page1 = await context1.newPage()
+//     /*Page Fixture*/
+//     const page = await context.newPage()
 
-    //await page.pause()
-    const login_pages=new Login_pages(page)
-    await login_pages.launchURL("https://www.facebook.com/")
-    await login_pages.login("Sonia", "Jesus")
-    await login_pages.createaccount()
-})
+//     //await page.pause()
+//     const login_pages=new Login_pages(page)
+//     await login_pages.launchURL("https://www.facebook.com/")
+//     await login_pages.login("Sonia", "Jesus")
+//     await login_pages.createaccount()
+// }) 
