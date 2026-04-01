@@ -1,0 +1,7 @@
+before all
+beforeEach
+Sauce Labs Onesie
+Sauce Labs Backpack
+Checkout: Overview
+UAT USERNAME
+afterEach
