@@ -32,8 +32,7 @@ export class Product_page{
       await this.page.waitForURL ("https://www.saucedemo.com/inventory.html")
         await expect (this.page.url()).toBe("https://www.saucedemo.com/inventory.html")
         await this.page.waitForTimeout(5000)
-
-
+git
      }
 
      public async verifydropdown(value){
